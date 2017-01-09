@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mycyberlaw.lecturer_manager.UploadAssignmentActivity"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a file"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"
+            android:textStyle="italic" />
+
+        <Button style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose file"
+            android:id="@+id/buttonChooseFile"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set your file name"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFileChosen"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextFilename"
+            android:layout_gravity="center_horizontal"
+            android:maxLength="30"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For which chapter this assignment is?"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTarget"
+            android:maxLength="50"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Got a message for developers about the file?"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="4dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextMsgDev"
+            android:layout_gravity="center_horizontal"
+            android:maxLength="50"
+            android:layout_marginTop="4dp"
+            android:maxLines="3"
+            android:layout_marginBottom="16dp"
+            android:hint="Optional" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload it!"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"
+            android:textStyle="italic" />
+
+        <Button style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:id="@+id/buttonUpload"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

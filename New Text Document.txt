@@ -1,0 +1,38 @@
+C:\Program Files\Java\jdk1.8.0_101\bin>keytool -list -v -keystore A:\projects\MyCyberLaw\keystore.jks
+Enter keystore password:
+
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: mycyberlaw
+Creation date: Oct 15, 2016
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Habibah Ismail
+Issuer: CN=Habibah Ismail
+Serial number: 29ae11bd
+Valid from: Sat Oct 15 18:30:31 SGT 2016 until: Wed Oct 09 18:30:31 SGT 2041
+Certificate fingerprints:
+         MD5:  46:90:B0:14:CF:78:91:31:1C:74:A9:73:D0:DE:06:23
+         SHA1: BF:0A:FF:7A:E2:54:5E:59:43:29:D7:9B:14:96:22:A5:04:69:AF:A1
+         SHA256: 36:CF:50:B2:8A:D6:D7:27:9A:11:1A:EF:8B:80:E6:AC:22:B0:0B:91:17:CC:FC:72:AB:E0:6F:12:66:53:CF:46
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 31 CF 6A D3 8D 85 24 A8   96 05 A4 3E F8 59 01 16  1.j...$....>.Y..
+0010: 53 5B 95 01                                        S[..
+]
+]
+
+
+
+*******************************************
+*******************************************

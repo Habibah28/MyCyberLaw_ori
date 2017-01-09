@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu_manager.HomeFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/information"
+        android:adjustViewBounds="true"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 1"
+        android:id="@+id/chapter1"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 2"
+        android:id="@+id/chapter2"
+        android:layout_below="@+id/chapter1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 3"
+        android:id="@+id/chapter3"
+        android:shadowRadius="5"
+        android:layout_below="@+id/chapter2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 4"
+        android:id="@+id/chapter4"
+        android:layout_below="@+id/chapter3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp" />
+
+</RelativeLayout>

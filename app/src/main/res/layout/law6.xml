@@ -1,0 +1,63 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".law_manager.Law1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Rest of your content -->
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_alignParentTop="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="34dp"
+                android:text="Malaysian Communications And Multimedia Commission Act 1998 [Act 589]"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/square_bullet"
+                    android:id="@+id/textView75"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="An Act to provide for the establishment of the Malaysian Communications and Multimedia Commission with powers to supervise and regulate the communications and multimedia activities in Malaysia, and to enforce the communications and multimedia laws of Malaysia, and for related matters. [1 November 1998,P .U.(B)451/98 ] " />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycyberlaw">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".chapter_manager.Chapter1Activity" />
+        <activity android:name=".chapter_manager.Chapter2Activity" />
+        <activity android:name=".chapter_manager.Chapter3Activity" />
+        <activity android:name=".chapter_manager.Chapter4Activity" />
+        <activity android:name=".law_manager.Law1" />
+        <activity android:name=".law_manager.Law2" />
+        <activity android:name=".law_manager.Law3" />
+        <activity android:name=".law_manager.Law4" />
+        <activity android:name=".law_manager.Law5" />
+        <activity android:name=".law_manager.Law6" />
+        <activity android:name=".law_manager.Law7" />
+        <activity android:name=".law_manager.Law8" />
+        <activity android:name=".law_manager.Law9" />
+        <activity android:name=".law_manager.Law10" />
+        <activity android:name=".law_manager.Law11" />
+        <activity android:name=".law_manager.Law12" />
+        <activity android:name=".AboutMenu" />
+        <activity
+            android:name=".RegisterMenu"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".ZXing.ScanActivity" />
+        <activity android:name=".lecturer_manager.LMessageActivity" />
+        <activity android:name=".lecturer_manager.LMarksActivity" />
+        <activity android:name=".student_manager.SMessageActivity" />
+        <activity
+            android:name=".student_manager.SMarksActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".login_manager.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".student_manager.SProfileActivity" />
+        <activity android:name=".lecturer_manager.LProfileActivity" />
+        <activity
+            android:name=".lecturer_manager.LSendMessage"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".lecturer_manager.UploadNotesActivity" />
+        <activity android:name=".lecturer_manager.UploadAssignmentActivity"></activity>
+    </application>
+
+</manifest>

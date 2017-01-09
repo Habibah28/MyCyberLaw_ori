@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_outline"
+            android:icon="@drawable/outline"
+            android:title="Course Outline" />
+        <item
+            android:id="@+id/nav_PDPA"
+            android:icon="@drawable/pdpa"
+            android:title="PDPA 2010" />
+        <item
+            android:id="@+id/nav_copyright"
+            android:icon="@drawable/copyright"
+            android:title="Copyright (Amendment) Act 2012" />
+        <item
+            android:id="@+id/nav_laws"
+            android:icon="@drawable/law"
+            android:title="List of Laws" />
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/marks"
+            android:title="Student" />
+        <item
+            android:id="@+id/nav_lecturers"
+            android:icon="@drawable/marks"
+            android:title="Lecturer" />
+    </group>
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+
+</menu>

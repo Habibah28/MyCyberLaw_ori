@@ -1,0 +1,117 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".law_manager.Law10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Rest of your content -->
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_alignParentTop="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="34dp"
+                android:text="Personal Data Protection Act 2010"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/square_bullet"
+                    android:id="@+id/textView75"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Personal Data Protection Act 2010 is an act to regulate the processing of personal data in commercial transactions. " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/square_bullet"
+                    android:id="@+id/textView72"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="However, this will not be applicable to the government both federal or states and data processed outside of Malaysia. " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/square_bullet"
+                    android:id="@+id/textView73"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_below="@id/label"
+                    android:layout_centerInParent="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="This act said to be enforced on 1st January 2013 but it has been extend to a different date (Secure IT Solution, 2011)." />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

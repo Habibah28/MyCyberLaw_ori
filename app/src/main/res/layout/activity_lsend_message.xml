@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mycyberlaw.lecturer_manager.LSendMessage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="20sp"
+        android:id="@+id/textSubject"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSubject"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textSubject"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:layout_below="@+id/editTextSubject"
+        android:id="@+id/textMsg"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editTextMessage"
+        android:layout_below="@+id/textMsg"
+        android:lines="10"
+        android:enabled="true"
+        android:isScrollContainer="true"
+        android:focusable="true"
+        android:maxLength="255"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:gravity="top|left" />
+
+</RelativeLayout>
